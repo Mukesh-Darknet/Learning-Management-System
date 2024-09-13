@@ -27,4 +27,17 @@ git clone https://github.com/Mukesh-Darknet/Lms.git
 
 
 
+### Tail wind Setup
+
+[https://tailwindcss.com/docs/installation]
+
+
+
+### Adding plugin and dependenscy
+
+```
+npm install @reduxjs/toolkit react-redux react-router-dom react-icons react-chartjs-2 chart.js axios react-hot-toast  @tailwindcss/line-clamp   
+```
+
+
 

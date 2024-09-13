@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       
-     
+     <h1>wellcome to LMS
+
+     </h1>
     </>
   )
 }
