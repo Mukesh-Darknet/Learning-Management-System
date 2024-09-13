@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialstate = {
+const initialState = {
   isLogIn:localStorage.getItem('isLogIn') || false,
   roll:localStorage.getItem('roll') || " ",
   data:localStorage.getItem('data')|| {}
@@ -12,5 +12,5 @@ const authSlice = createSlice({
   reducers:{},
 })
 
-// export const{ } = authSlice.actions;
+export const{ } = authSlice.actions;
 export default authSlice.reducer;

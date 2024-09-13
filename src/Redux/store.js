@@ -5,7 +5,7 @@ import authSliceReducer from './Slices/AuthSlice';
 
 const store = configureStore({
   reducer:{
-    auth:   authSliceReducer,
+    auth: authSliceReducer,
   },
   devTools:true
 })

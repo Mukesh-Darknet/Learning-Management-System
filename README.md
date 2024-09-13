@@ -28,8 +28,12 @@ git clone https://github.com/Mukesh-Darknet/Lms.git
 
 
 ### Tail wind Setup
-
+```
 [https://tailwindcss.com/docs/installation]
+
+postcss autoprefixer
+
+```
 
 
 
