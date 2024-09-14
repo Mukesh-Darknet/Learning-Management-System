@@ -1,18 +1,27 @@
 
 import {Route, Routes } from 'react-router-dom'
-import Footer from './Component/Footer'
+
+import HomePage from './Pages/HomePage'
+
+
+
+
+
+
 
 function App() {
 
   return (
     <>
+
+
     <Routes>
-       {/* <Route path ="/" element = {<Home/>}></Route> */}
+       <Route path ="/" element = {<HomePage/>}></Route>
       
     </Routes>
       
-     {/* <h1>wellcome to LMS</h1> */}
-     {/* <Footer/> */}
+    
+     
     </>
   )
 }

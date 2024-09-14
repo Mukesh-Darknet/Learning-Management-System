@@ -21,7 +21,7 @@ git clone https://github.com/Mukesh-Darknet/Lms.git
 
   npm i
 
-5. run the server
+4. run the server
 
    npm run dev 
 
@@ -33,6 +33,11 @@ git clone https://github.com/Mukesh-Darknet/Lms.git
 
 postcss autoprefixer
 
+```
+5.Add the following plugin in tailwind congfig 
+
+```
+plugins: [require('daisyui'),require("@tailwindcss/line-clamp")],
 ```
 
 
