@@ -29,7 +29,7 @@ function AboutUs() {
 
           {/* crousel */}
 
-          <div className=" m-auto carousel  rounded-2xl mb-5 w-64">
+          <div className="my-16 m-auto carousel  rounded-2xl mb-5 w-64">
             <div id="slide1" className="carousel-item relative h-60 w-72">
               <img
                 src={APJ}

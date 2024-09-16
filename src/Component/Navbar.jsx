@@ -6,7 +6,7 @@ import Logo from "../Assets/Image/Logo.png"
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-white q">
+      <div className="navbar bg-white ">
         <div className="flex-1">
           {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
           <img
