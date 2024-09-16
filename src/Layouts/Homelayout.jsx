@@ -2,6 +2,7 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiFillCloseSquare } from "react-icons/ai";
 import Footer from "../Component/Footer";
+import Navbar from "../Component/Navbar"
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
@@ -42,6 +43,7 @@ function HoemLayout({children}) {
 
   return (
     <>
+    <Navbar/>
       <div className="min-h-[90vh]  ">
         <div className="drawer absolute w-fit left-0 z-50">
           <input className="drawer-toggle " id="my-drawer" type="checkbox" />
@@ -56,7 +58,7 @@ function HoemLayout({children}) {
           </div>
           <div className="drawer-side">
             <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-            <ul className="menu w-48 p-4 sm:w-80 bg-base-100 text-base-content relative">
+            <ul className="menu w-48 h-[30%] p-4 sm:w-80 bg-base-100 text-base-content relative">
               <li className="w-fit absolute right-2 z-50">
 
                 <button onClick={hideDrawer}>
@@ -90,7 +92,7 @@ function HoemLayout({children}) {
               </li>
 
               {!isLogIn && (
-                <li className="absolute bottom-4 w-[80%] ">
+                <li className="absolute t-20 bottom-4 w-[80%] ">
                 <div className="w-full flex item-center justify-center">
                   <button className="btn-primary font-semibold rounded-md w-full bg-sky-400 px-4 py-1 ">
                     <a href="/login">LogIn</a>
